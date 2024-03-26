@@ -1,6 +1,7 @@
-title: Minimal theme
-logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
+title: Yawar Mohammad Khan
+tagline: Senior Engineer Manager at Activision Blizzard
+logo: /assets/img/yawar_pic.jpg
+description: Senior Engineer Manager at Activision Blizzard
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal

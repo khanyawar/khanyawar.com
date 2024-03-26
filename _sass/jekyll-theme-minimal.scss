@@ -4,7 +4,7 @@
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
 }
@@ -35,12 +35,12 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#267CB9;
+  color:#222;
   text-decoration:none;
 }
 
 a:hover, a:focus {
-  color:#069;
+  color:#222;
   font-weight: bold;
 }
 
@@ -120,8 +120,8 @@ kbd {
 
 header {
   width:270px;
-  float:left;
-  position:fixed;
+  float:right;
+  position:absolute;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -203,9 +203,10 @@ hr {
 }
 
 footer {
-  width:270px;
+  width:520px;
+  font-size:11px;
   float:left;
-  position:fixed;
+  position:absolute;
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
