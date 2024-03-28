@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="icon" type=""image/x-icon" href="/assets/img/yawar_logo.png">
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
@@ -15,15 +15,14 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
+        <h1>
+          <a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
         <p></p>
         <b>M.Sc.</b> Computing Science <br>
         Senior <b>Engineering Manager</b> <br>
         <a href="">Data Engineering</a>
         <p></p>
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}"  width='' height='' alt="Logo" />
-        {% endif %}
+        <img src="{{site.profile | relative_url}}"  width='' height='' alt="Profile" />
         <p></p>
       </header>
       <section>

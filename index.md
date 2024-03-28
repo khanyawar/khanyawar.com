@@ -1,8 +1,15 @@
 ---
 layout: default
 ---
+<div>
+  <a href="#">
+    <img src="{{site.logo | relative_url}}"  width='60' height='60' alt="Logo" align="right" style="border:1px solid gray;"/>
+  </a>
+  <q>Hello World!</q>
+</div>
 
 [home](./). [cv](./). [thoughts](./). [personal](./). [reading list](./). <br/>
+
 
 <p>&nbsp;</p>
 
